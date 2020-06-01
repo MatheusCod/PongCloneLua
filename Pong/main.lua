@@ -1,5 +1,6 @@
 function love.load()
   -- Window
+  love.window.setTitle("Pong Clone")
   windowWidth = 800
   windowHeight = 500
   love.window.setMode(windowWidth, windowHeight)
